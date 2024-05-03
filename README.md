@@ -1,8 +1,5 @@
-prueba arturo dev
-
 hola
- jajja
- 
+
 ## Project setup
 ```
 npm install

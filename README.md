@@ -1,10 +1,9 @@
 hola dcomo estas
 bien hola 
 
-ahah
-jdhjdfb
-djgcvsdghcv
-hh
+haola hola 
+hola 
+hola 
 
 ## Project setup
 ```

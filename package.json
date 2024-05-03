@@ -4,9 +4,7 @@
   "license": "MIT",
   "description": "Login/password authentication system developed with VUE3, ROUTER4 and Bootstrap5 and SASS Loader",
   "author": {
-    "name": "Tellys Castro",
-    "email": "tellyscastro@gmail.com",
-    "url": "https://www.agenciasolution.com/"
+    "name": "Jose Arturo"
   },
   "keywords": [
     "vue",
@@ -21,10 +19,7 @@
     "css"
   ],
   "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Tellys/Login-Vue-3-Router-4-Bootstrap-5-SASS-Loader"
-  },
+  
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

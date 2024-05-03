@@ -1,10 +1,5 @@
-que onda 
 hola
- hsdhd
- klajs
- 866734
- ahsdu
- 
+
 ## Project setup
 ```
 npm install

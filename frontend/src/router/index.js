@@ -4,6 +4,8 @@ import PaginaLogin from '../views/LoginOptions.vue'
 import PaginaLogout from '../views/Logout.vue'
 import PaginaDashboard from '../views/PaginaDashboard.vue'
 import Login from '../views/Login.vue'
+import Horario from '../views/Horario.vue'
+import datospersonales from '../views/DatosPersonales.vue'
 
 const routes = [
   {
@@ -26,6 +28,17 @@ const routes = [
     path: '/logout',
     name: 'logout',
     component: PaginaLogout,
+  },
+
+  {
+    path: '/horario',
+    name: 'horario',
+    component: Horario,
+  },
+  {
+    path : '/datospersonales',
+    name : 'datospersonales',
+    component : datospersonales,
   },
   /*****************************
    * Dashboard 

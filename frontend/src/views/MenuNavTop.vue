@@ -21,7 +21,7 @@
                 class="rounded-circle shadow-4-strong" alt="avatar2" height="22" loading="lazy"
                 src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" /></a>
             <ul class="dropdown-menu">
-              <li><a href="!#" @click.prevent="logout()" class="dropdown-item">Sair</a></li>
+              <li><a href="!#" @click.prevent="logout()" class="dropdown-item">Salir</a></li>
             </ul>
           </li>
 

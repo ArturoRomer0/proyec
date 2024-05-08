@@ -7,6 +7,7 @@ import Login from '../views/Login.vue'
 import Horario from '../views/Horario.vue'
 import datospersonales from '../views/DatosPersonales.vue'
 
+
 const routes = [
   {
     path: '/',

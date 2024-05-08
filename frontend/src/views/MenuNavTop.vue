@@ -16,6 +16,9 @@
           <li class="nav-item" v-if="isLoggedIn()">
             <router-link class="me-3 nav-link text-white" to="/dashboard">Dashboard</router-link>
           </li>
+          <li class="nav-item" v-if="isLoggedIn()">
+            <router-link class="me-3 nav-link text-white" to="/datospersonales">Perfil</router-link>
+          </li>
           <li class="nav-item dropdown" v-if="isLoggedIn()">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img
                 class="rounded-circle shadow-4-strong" alt="avatar2" height="22" loading="lazy"

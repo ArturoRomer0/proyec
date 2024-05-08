@@ -26,7 +26,7 @@
                 v-model="register.password"
                 required
               />
-              <label class="form-label" for="formLoginLabelSenha">Senha</label>
+              <label class="form-label" for="formLoginLabelSenha">Contraseña</label>
             </div>
 
             <!-- Submit button -->

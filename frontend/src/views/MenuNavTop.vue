@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm " aria-label="Menu" style="background-color: #6f42c1;">
+  <nav class="navbar navbar-expand-sm " aria-label="Menu" style="background-color: #1EAFF7;">
     <div class="container">
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
@@ -14,10 +14,13 @@
           </li>
 
           <li class="nav-item" v-if="isLoggedIn()">
-            <router-link class="me-3 nav-link text-white" to="/dashboard">Dashboard</router-link>
+            <router-link class="me-3 nav-link text-white" to="/GestorCitas">Citas</router-link>
           </li>
           <li class="nav-item" v-if="isLoggedIn()">
             <router-link class="me-3 nav-link text-white" to="/datospersonales">Perfil</router-link>
+          </li>
+          <li class="nav-item" v-if="isLoggedIn()">
+            <router-link class="me-3 nav-link text-white" to="/horario">Horario</router-link>
           </li>
           <li class="nav-item dropdown" v-if="isLoggedIn()">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false"><img

@@ -1,4 +1,3 @@
-const e = require('express');
 const {connection} = require('../config/database.js');
 const {encriptar, desencriptar} = require('../config/functionGloblal.js');
 

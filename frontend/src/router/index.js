@@ -6,6 +6,7 @@ import PaginaDashboard from '../views/PaginaDashboard.vue'
 import Login from '../views/Login.vue'
 import Horario from '../views/Horario.vue'
 import datospersonales from '../views/DatosPersonales.vue'
+import GestorCitas from '../views/GestorCitas.vue'
 
 
 const routes = [
@@ -36,6 +37,12 @@ const routes = [
     name: 'horario',
     component: Horario,
   },
+  {
+    path: '/citas',
+    name: 'citas',
+    component: GestorCitas,
+  },
+  
   {
     path : '/datospersonales',
     name : 'datospersonales',
